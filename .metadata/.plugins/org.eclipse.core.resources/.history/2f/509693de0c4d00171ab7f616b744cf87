@@ -1,0 +1,22 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package basic;
+
+/**
+ * @author :IRFAN
+ *TIME:5:40:20 pm
+ * DATE:09-Jun-2017
+ *PROJECTNAME:6-6-17
+ */
+public class custumized_exeption {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

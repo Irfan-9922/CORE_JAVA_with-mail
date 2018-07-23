@@ -1,0 +1,71 @@
+/**JAVA BOSS COPYRIGHT@ ALL RIGHTS ARE RESERVED
+ * 
+ */
+package COM.IJ.IMMUTTABLE;
+
+/**
+ *NAME:IRFAN
+ *TIME:11:45:28 AM
+ * DATE:10-May-2017
+ *PROJECT NAME:10-5-17_IMMUTABLE-CLASS
+ */
+
+
+
+
+//MAKE CLASS AS FINAL SO NO SUBCLASS CAN BE CREATED
+public class STUDENT {
+	//MAKE ALL FIELD PRIVATE AND FINAL SO NO ONE CAN ACESS OUTSIDE OF A CLASS 
+	//AND FINAL MINS ONSE ASSIN=GN VALUES THAT VALUES WILL NOT BE MODIFIED
+	private final String name;
+	private final int rollno;
+	private  final String mname;
+	private final String fname;
+	/**
+	 * @param name
+	 * @param rollno
+	 * @param mname
+	 * @param fname
+	 */
+
+	//CREAT THE USER DEFIND CUNSTRUCTORE TO  AND MAKE THAT CUNSTRUCTOR AS PRIVATE 
+	//ONLY ONS IT CAN INSTANSIAT
+	STUDENT(String name, int rollno, String mname, String fname) {
+		super();
+		this.name = name;
+		this.rollno = rollno;
+		this.mname = mname;
+		this.fname = fname;
+	}
+	/**
+	 * @return the name
+	 */
+	//AVOID TO WRITE SETTER WRITE ONLY GETTER
+	public String getName() {
+		return name;
+	}
+	/**
+	 * @return the rollno
+	 */
+	public int getRollno() {
+		return rollno;
+	}
+	/**
+	 * @return the mname
+	 */
+	public String getMname() {
+		return mname;
+	}
+	/**
+	 * @return the fname
+	 */
+	public String getFname() {
+		return fname;
+	}
+	
+	
+	
+	
+	
+
+}

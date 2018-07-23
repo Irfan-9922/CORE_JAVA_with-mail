@@ -1,0 +1,40 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package basic;
+
+/**
+ * @author :IRFAN
+ *TIME:4:11:46 pm
+ * DATE:06-Jun-2017
+ *PROJECTNAME:6-6-17
+ */
+public class palindrom {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//get the number frm user
+		//stroe into temprory variable and reverse the number
+		//compare the revers value and orignal value
+		//if both value is same then it is palindrom else not
+		String s="iri";
+		StringBuffer b=new StringBuffer(s);
+		b.reverse();
+		System.out.println(b);
+		System.out.println(s);
+		if(s.equals(b)){
+			
+			System.out.println(" not palindrom");
+			
+		}
+		else{
+			System.out.println(" palindrom");
+		}
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

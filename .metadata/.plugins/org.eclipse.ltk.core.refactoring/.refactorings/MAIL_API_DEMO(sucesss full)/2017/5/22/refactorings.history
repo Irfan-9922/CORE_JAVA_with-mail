@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Untitled 1&apos; to &apos;MAIL_API_DEMO(sucesss full)&apos;" description="Move &apos;Untitled 1&apos; to &apos;MAIL_API_DEMO(sucesss full)&apos;" destination="/MAIL_API_DEMO(sucesss full)" element1="src/main/resources/Untitled 1" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1496135486844" updateReferences="true"/>
+</session>

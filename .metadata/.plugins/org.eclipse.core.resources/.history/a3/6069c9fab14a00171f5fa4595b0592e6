@@ -1,0 +1,33 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package basic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author :IRFAN
+ *TIME:5:41:41 pm
+ * DATE:06-Jun-2017
+ *PROJECTNAME:6-6-17
+ */
+public class revers_string {
+
+	/**
+	 * @param args
+	 */
+	
+	public static void main(String[] args) {
+		List l=new ArrayList();
+		// TODO Auto-generated method stub
+        String s="irfan";
+        //use for loop
+        for(int i=s.length()-1;i>=0;i--){
+        	System.out.println("after reversing"+s.charAt(i));
+        	l.add(s);
+        }
+        System.out.println(l);
+	}
+
+}

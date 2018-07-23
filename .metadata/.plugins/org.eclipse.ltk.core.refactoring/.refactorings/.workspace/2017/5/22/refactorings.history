@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MAIL_API_DEMO&apos; to &apos;MAIL_API_DEMO(sucesss full)&apos;" description="Rename resource &apos;MAIL_API_DEMO&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MAIL_API_DEMO" name="MAIL_API_DEMO(sucesss full)" stamp="1496134081348" updateReferences="true"/>
+</session>

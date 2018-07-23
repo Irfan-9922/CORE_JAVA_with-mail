@@ -1,0 +1,22 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package basic;
+
+/**
+ * @author :IRFAN
+ *TIME:2:19:42 pm
+ * DATE:09-Jun-2017
+ *PROJECTNAME:6-6-17
+ */
+public class trycatch {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

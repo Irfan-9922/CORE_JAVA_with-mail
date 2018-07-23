@@ -1,0 +1,37 @@
+while using this program if any proble is came the use following alternatives
+Q)javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:1420)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:1408)
+	at com.sun.mail.smtp.SMTPTransport.ehlo(SMTPTransport.java:847)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:384)
+	at javax.mail.Service.connect(Service.java:297)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at com.ij.SendSimpleMail.main(SendSimpleMail.java:54)
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:980)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1363)
+	at sun.security.ssl.SSLSocketImpl.writeRecord(SSLSocketImpl.java:735)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:123)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:101)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:1418)
+	... 9 more
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	... 16 more
+	
+	
+	
+	ANS==========
+	 use j2se 1.4 vershion of jre system librery
+	 
+	 Q)use following link to 
+	 http://www.google.com/settings/sequrity/lesssequreapps
+	 to enable the access of your account to send the email from your program

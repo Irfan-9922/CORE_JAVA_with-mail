@@ -1,0 +1,49 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package basic;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.TreeSet;
+
+/**
+ * @author :IRFAN
+ *TIME:5:41:41 pm
+ * DATE:06-Jun-2017
+ *PROJECTNAME:6-6-17
+ */
+public class revers_string implements Comparable{
+
+	/**
+	 * @param args
+	 */
+	
+	public static void main(String[] args) {
+		List l=new ArrayList();
+		List ll=new ArrayList();
+		TreeSet j=new TreeSet(ll);
+		// TODO Auto-generated method stub
+        String s="irfan";
+        //use for loop
+        for(int i=s.length()-1;i>=0;i--){
+        //	System.out.println("after reversing"+s.charAt(i));
+        	l.add(s.charAt(i));
+        }
+        System.out.println(l);
+        ll=l;
+        j.add(ll);
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Comparable#compareTo(java.lang.Object)
+	 */
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		
+		
+		return -1;
+	}
+
+}

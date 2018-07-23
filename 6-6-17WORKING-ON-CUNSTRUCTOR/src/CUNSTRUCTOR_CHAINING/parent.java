@@ -1,0 +1,35 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package CUNSTRUCTOR_CHAINING;
+
+/**
+ * @author :IRFAN
+ *TIME:4:01:01 pm
+ * DATE:06-Jun-2017
+ *PROJECTNAME:6-6-17WORKING-ON-CUNSTRUCTOR
+ */
+public class parent {
+
+	/**
+	 * @param string
+	 */
+	public parent(){
+		System.out.println("parent 0 parma cunstri=octor");
+	}
+	public parent(String string) {
+		this("irfna",12);
+		System.out.println("from parent 1 param cunstructor");
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param string
+	 * @param i
+	 */
+	public parent(String string, int i) {
+		System.out.println("from parent 2 param cunstructor");
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,54 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package basic;
+
+/**
+ * @author :IRFAN
+ *TIME:2:19:42 pm
+ * DATE:09-Jun-2017
+ *PROJECTNAME:6-6-17
+ */
+public class trycatch {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try{
+			System.out.println("in try");
+			System.out.println(10/0);
+			try{
+				System.out.println("inner try");
+				System.out.println(10/0);
+			}
+			catch(ArrayIndexOutOfBoundsException f){
+				
+				
+			}
+			finally{
+				System.out.println("inside inner finally");
+				//return;
+			}
+		}
+catch(ArithmeticException e){
+	System.out.println("ae");
+	
+	
+	
+}
+		catch(NullPointerException e){
+			System.out.println("ae");
+			
+			
+			
+		}
+		
+		finally {
+			System.out.println("fff");
+		}
+	}
+	
+
+}
